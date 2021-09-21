@@ -1,3 +1,5 @@
 TinDog Starting Files
 # Tindog
-# Tindog
+
+About
+From the course: The Complete 2021 Web Development Bootcamp
