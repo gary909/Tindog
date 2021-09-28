@@ -19,6 +19,22 @@ h1 {
     /* margin-bottom: 10%; */
 }
 
+h2 {
+    font-family: "Montserrat-Bold", Arial;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Bold", Arial;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
 
 .rotateImg {
     transform: rotate(20deg);
@@ -62,6 +78,10 @@ button {
     color: #EF8172;
 }
 
+.iconImage{
+    margin-bottom: 5%;
+}
+
 .icon:hover {
     transition: color 1s;
     color: #ff4c68;
@@ -69,4 +89,12 @@ button {
 
 .features-margin {
     margin: 5%;
+}
+
+/* Testimonial Section */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    color: white;
+    background-color: #EF8172;
 }
