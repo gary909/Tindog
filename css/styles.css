@@ -93,14 +93,13 @@ button {
 
 /* Testimonial Section */
 #testimonials{
-    padding: 7% 15%;
     text-align: center;
     color: white;
     background-color: #EF8172;
 }
 
 .testimonial-image {
-    width: 15%;
+    width: 12%;
     border-radius: 100%;
     margin: 20px;
 }
@@ -114,4 +113,8 @@ button {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
