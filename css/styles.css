@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -36,11 +36,20 @@ p {
 }
 
 .rotateImg {
-  transform: rotate(20deg);
-  max-width: 60%;
-  height: auto;
+  transform: rotate(25deg);
+  width: 60%;
+  /* height: auto; */
+  /* z-index: -1; */
+  position: absolute;
+  right: 30%;
 }
 
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
+}
 /* Nav Bar */
 
 .navbar {
@@ -84,9 +93,9 @@ button {
   color: #ff4c68;
 }
 
-.features-margin {
+/* .features-margin {
   margin: 5%;
-}
+} */
 
 /* Testimonial Section */
 #testimonials {
